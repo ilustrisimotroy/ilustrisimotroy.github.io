@@ -20,8 +20,8 @@ html {
     transition: all 0.3s ease;
 }
 .navbar.sticky {
-    padding: 15px 0;
-    background: rgb(103, 174, 177);
+    padding: 10px 0;
+    background: rgb(106, 178, 226);
 }
 .max-width {
     max-width: 1300px;
@@ -39,7 +39,7 @@ html {
     font-size: 35px;
     font-weight: 600;
     color: #fff;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .navbar.sticky .logo a span {
@@ -47,7 +47,7 @@ html {
 }
 
 .navbar .logo a span {
-    color: rgb(103, 174, 177);
+    color: rgb(106, 178, 226);
 }
 
 .navbar .menu li {
@@ -65,7 +65,7 @@ html {
 }
 
 .navbar .menu li a:hover {
-    color: rgb(103, 174, 177);
+    color: rgb(106, 178, 226);
 }
 .navbar.sticky .menu li a:hover {
     color: #fff;
@@ -82,7 +82,7 @@ html {
     position: fixed;
     height: 45px;
     width: 42px;
-    background: rgb(103, 174, 177);
+    background: rgb(106, 178, 226);
     right: 30px;
     bottom: 30px;
     text-align: center;
@@ -103,15 +103,14 @@ html {
 }
 
 /* home section styling */
-.home {
+#home {
     display: flex;
-    background: url("black.jpg") no-repeat center;
+    background: url("/images/black.jpg") no-repeat center;
     height: 100vh;
-    color: #fff;
+    color: rgb(255, 255, 255);
     min-height: 500px;
     font-family: 'Poppins', sans-serif;
 }
-
 .home .max-width {
     margin: auto 0 auto 40px;
 }
@@ -128,23 +127,23 @@ html {
     margin: 5px 0;
 }
 .home .home-content .text-3 span {
-    color: rgb(103, 174, 177);
+    color: rgb(106, 178, 226);
     font-weight: 500;
 }
 .home .home-content a {
     display: inline-block;
-    background: rgb(103, 174, 177);
+    background: rgb(106, 178, 226);
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid rgb(103, 174, 177);
+    border: 2px solid rgb(106, 178, 226);
     transition: all 0.3s ease;
 }
 
 .home .home-content a:hover {
-    color: rgb(103, 174, 177);
+    color: rgb(106, 178, 226);
     background: none;
 }
 
