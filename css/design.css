@@ -82,7 +82,7 @@ html {
     position: fixed;
     height: 45px;
     width: 42px;
-    background: rgb(106, 178, 226);
+    background: rgb(37, 126, 138);
     right: 30px;
     bottom: 30px;
     text-align: center;
@@ -266,7 +266,8 @@ section {
 
 }
 .services .serv-content .card {
-    width: calc(33% - 20px);
+    width: calc(50% - 40px);
+    height: 32vh;
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -360,19 +361,19 @@ section {
     background:rgb(103, 174, 177);
 }
 .skills-content .right .html::before{
-    width: 90%;
-}
-.skills-content .right .css::before{
     width: 80%;
 }
+.skills-content .right .css::before{
+    width: 50%;
+}
 .skills-content .right .javascript::before{
-    width: 60%;
+    width: 25%;
 }
 .skills-content .right .PHP::before{
-    width: 50%;
+    width: 30%;
 }
 .skills-content .right .mySQL::before{
-    width: 50%;
+    width: 40%;
 }
 
 /* Contact section styling */
@@ -470,12 +471,12 @@ section {
     background: none;
 }
 
-/* Footer section styling start */
+/* Simula ng pag style ng footer */
 
 footer {
     background: #111;
     padding: 20px 23px;
-    color: #fff
+    color: #fff;
 }
 footer span a {
     color: rgb(103, 174, 177);
